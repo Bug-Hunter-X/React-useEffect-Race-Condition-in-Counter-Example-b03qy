@@ -1,0 +1,1 @@
+The solution uses a functional update with `setCount(prevCount => prevCount + 1)`. This ensures that the state update always uses the most recent value of `count`, preventing race conditions.  Functional updates guarantee that the updater function receives the most up-to-date value of state, regardless of the timing of asynchronous operations.
