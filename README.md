@@ -1,0 +1,3 @@
+# React UseEffect Race Condition
+
+This repository demonstrates a race condition that can occur when using the `useEffect` hook in React with asynchronous operations. The example is a simple counter, but the principle applies to more complex scenarios.  Rapid clicking of the button can lead to an inaccurate count because of the asynchronous updates.  The solution provided demonstrates how to avoid this by using functional updates.
